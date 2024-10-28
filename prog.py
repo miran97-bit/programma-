@@ -189,7 +189,7 @@ entry_a.grid(row=0, column=1)
 
 tk.Label(tab4, text="T0").grid(row=1, column=0)
 entry_T0_tab4 = tk.Entry(tab4)
-entry_T0_tab4.grid(row=1, column=2)
+entry_T0_tab4.grid(row=1, column=1)
 
 tk.Label(tab4, text="delta_l").grid(row=2, column=0)
 entry_delta_l = tk.Entry(tab4)
@@ -197,7 +197,7 @@ entry_delta_l.grid(row=2, column=1)
 
 # Dropdown per ID in Scheda 4
 dropdown_tab4 = tk.OptionMenu(tab4, selected_id, ())
-dropdown_tab4.grid(row=0, column=1)
+dropdown_tab4.grid(row=0, column=2)
 dropdowns.append(dropdown_tab4)
 
 # Pulsante calcola per Scheda 4
