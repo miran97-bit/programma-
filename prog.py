@@ -197,7 +197,7 @@ entry_delta_l.grid(row=2, column=1)
 
 # Dropdown per ID in Scheda 4
 dropdown_tab4 = tk.OptionMenu(tab4, selected_id, ())
-dropdown_tab4.grid(row=0, column=2)
+dropdown_tab4.grid(row=0, column=1)
 dropdowns.append(dropdown_tab4)
 
 # Pulsante calcola per Scheda 4
