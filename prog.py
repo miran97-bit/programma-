@@ -113,7 +113,7 @@ def calculate_tab4():
         target_delta_l = float(entry_delta_l.get())
         
         T0_prime_start = 30
-        T0_prime_end = 1500
+        T0_prime_end = 5000
         step = 1
         
         best_T0_prime = find_best_T0_prime(m, a, T0, E, S, target_delta_l, T0_prime_start, T0_prime_end, step)
